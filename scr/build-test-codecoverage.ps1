@@ -6,8 +6,8 @@ param(
 
 Push-Location (Resolve-Path "$PSScriptRoot\..")
 try {
-    dotnet build KoreForge.Logging.Serilog.sln --force -c $Configuration
-    dotnet test  KoreForge.Logging.Serilog.sln -c $Configuration --no-build `
+    dotnet build KoreForge.Logging.Serilog.slnx --force -c $Configuration
+    dotnet test  KoreForge.Logging.Serilog.slnx -c $Configuration --no-build `
         --logger "html;LogFileName=TestResults.html" `
         --results-directory out/TestResults `
         --collect:"XPlat Code Coverage" `
