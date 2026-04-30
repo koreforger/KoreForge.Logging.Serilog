@@ -26,10 +26,10 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Build
-        run: dotnet build KoreForge.Logging.Serilog.sln -c Release
+        run: dotnet build KoreForge.Logging.Serilog.slnx -c Release
 
       - name: Test
-        run: dotnet test KoreForge.Logging.Serilog.sln -c Release --no-build
+        run: dotnet test KoreForge.Logging.Serilog.slnx -c Release --no-build
 
       - name: Pack
         run: dotnet pack src/KF.Logging.Serilog/KF.Logging.Serilog.csproj -c Release --no-build -o artifacts/
