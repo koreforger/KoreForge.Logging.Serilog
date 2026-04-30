@@ -33,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\KoreForge.Logging\src\KF.Logging.Runtime\KF.Logging.Runtime.csproj" />
+    <PackageReference Include="KoreForge.Logging" Version="0.0.10-alpha" />
     <ProjectReference Include="..\..\src\KF.Logging.Serilog\KF.Logging.Serilog.csproj" />
   </ItemGroup>
 
