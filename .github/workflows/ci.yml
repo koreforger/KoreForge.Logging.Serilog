@@ -36,11 +36,11 @@ jobs:
         run: dotnet tool restore
 
       - name: Build
-        run: dotnet build KoreForge.Logging.Serilog.sln -c Debug
+        run: dotnet build KoreForge.Logging.Serilog.slnx -c Debug
 
       - name: Test with coverage
         run: |
-          dotnet test KoreForge.Logging.Serilog.sln -c Debug --no-build \
+          dotnet test KoreForge.Logging.Serilog.slnx -c Debug --no-build \
             /p:CollectCoverage=true \
             /p:CoverletOutputFormat=cobertura \
             "/p:CoverletOutput=../../out/TestResults/raw/coverage.cobertura.xml" \
