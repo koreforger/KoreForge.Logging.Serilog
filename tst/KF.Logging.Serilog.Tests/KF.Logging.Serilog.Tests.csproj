@@ -34,7 +34,7 @@
 
   <ItemGroup>
     <PackageReference Include="KoreForge.Logging" Version="0.0.10-alpha" />
-    <ProjectReference Include="..\..\src\KF.Logging.Serilog\KF.Logging.Serilog.csproj" />
+    <PackageReference Include="KoreForge.Logging.Serilog" VersionOverride="1.0.1-alpha" />
   </ItemGroup>
 
 </Project>
