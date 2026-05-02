@@ -4,7 +4,7 @@ using Serilog.Events;
 using Serilog.Parsing;
 using Xunit;
 
-namespace KF.Logging.Serilog.Tests;
+namespace KoreForge.Logging.Serilog.Tests;
 
 /// <summary>
 /// Tests for <see cref="LogstashJsonFormatter"/>.

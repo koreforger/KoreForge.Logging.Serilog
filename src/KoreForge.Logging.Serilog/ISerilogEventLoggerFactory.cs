@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace KF.Logging.Serilog;
+namespace KoreForge.Logging.Serilog;
 
 /// <summary>
 /// Factory for creating Serilog-backed event loggers.

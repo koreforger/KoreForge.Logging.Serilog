@@ -5,10 +5,10 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/src/">
-    <Project Path="src/KF.Logging.Serilog/KF.Logging.Serilog.csproj" />
+    <Project Path="src/KoreForge.Logging.Serilog/KoreForge.Logging.Serilog.csproj" />
   </Folder>
   <Folder Name="/tst/">
-    <Project Path="tst/KF.Logging.Serilog.Tests/KF.Logging.Serilog.Tests.csproj" />
+    <Project Path="tst/KoreForge.Logging.Serilog.Tests/KoreForge.Logging.Serilog.Tests.csproj" />
   </Folder>
 
 </Solution>

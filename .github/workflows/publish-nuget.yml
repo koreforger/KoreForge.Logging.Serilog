@@ -32,7 +32,7 @@ jobs:
         run: dotnet test KoreForge.Logging.Serilog.slnx -c Release --no-build
 
       - name: Pack
-        run: dotnet pack src/KF.Logging.Serilog/KF.Logging.Serilog.csproj -c Release --no-build -o artifacts/
+        run: dotnet pack src/KoreForge.Logging.Serilog/KoreForge.Logging.Serilog.csproj -c Release --no-build -o artifacts/
 
       - name: Push to NuGet.org
         run: |

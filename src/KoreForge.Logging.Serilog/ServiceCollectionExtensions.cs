@@ -6,7 +6,7 @@ using Serilog.Formatting.Compact;
 using Serilog.Sinks.Network;
 using ISerilogLogger = Serilog.ILogger;
 
-namespace KF.Logging.Serilog;
+namespace KoreForge.Logging.Serilog;
 
 /// <summary>
 /// Extension methods for configuring Serilog-based logging.

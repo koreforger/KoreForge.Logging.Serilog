@@ -2,7 +2,7 @@ using System.Text.Json;
 using Serilog.Events;
 using Serilog.Formatting;
 
-namespace KF.Logging.Serilog;
+namespace KoreForge.Logging.Serilog;
 
 /// <summary>
 /// JSON formatter optimized for LogStash ingestion via ELK stack.

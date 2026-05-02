@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace KF.Logging.Serilog;
+namespace KoreForge.Logging.Serilog;
 
 /// <summary>
 /// Configuration options for Serilog-based logging.

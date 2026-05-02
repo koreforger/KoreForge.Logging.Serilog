@@ -4,7 +4,7 @@ using Serilog;
 using Xunit;
 using ISerilogLogger = Serilog.ILogger;
 
-namespace KF.Logging.Serilog.Tests;
+namespace KoreForge.Logging.Serilog.Tests;
 
 /// <summary>
 /// Tests for DI registration and factory creation.

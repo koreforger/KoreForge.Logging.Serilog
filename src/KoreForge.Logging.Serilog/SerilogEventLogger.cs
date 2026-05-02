@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 using Serilog.Context;
 using ISerilogLogger = Serilog.ILogger;
 
-namespace KF.Logging.Serilog;
+namespace KoreForge.Logging.Serilog;
 
 /// <summary>
 /// Serilog-backed implementation of <see cref="IEventLogger"/>.

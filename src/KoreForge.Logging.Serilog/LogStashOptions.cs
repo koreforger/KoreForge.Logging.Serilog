@@ -1,4 +1,4 @@
-namespace KF.Logging.Serilog;
+namespace KoreForge.Logging.Serilog;
 
 /// <summary>
 /// Configuration options for LogStash network sink.

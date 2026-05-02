@@ -2,7 +2,7 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using ISerilogLogger = Serilog.ILogger;
 
-namespace KF.Logging.Serilog;
+namespace KoreForge.Logging.Serilog;
 
 /// <summary>
 /// Default implementation of <see cref="ISerilogEventLoggerFactory"/>.

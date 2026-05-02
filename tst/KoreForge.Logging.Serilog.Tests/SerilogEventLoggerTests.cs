@@ -5,7 +5,7 @@ using Serilog.Events;
 using Serilog.Sinks.InMemory;
 using Xunit;
 
-namespace KF.Logging.Serilog.Tests;
+namespace KoreForge.Logging.Serilog.Tests;
 
 /// <summary>
 /// Tests for <see cref="SerilogEventLogger"/>.
